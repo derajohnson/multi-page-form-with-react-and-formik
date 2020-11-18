@@ -1,0 +1,29 @@
+.user-description {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.image-hero{
+    text-align: center;
+}
+
+.image-hero img {
+    width: 70%;
+    height: auto;
+}
+
+.container-3 {
+    height: 560px;
+}
+
+@media screen and (max-width: 725px){
+    .container-3 {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 518px){
+    .user-description {
+        padding: 0;
+    }
+}

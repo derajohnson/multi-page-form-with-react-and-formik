@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../assets/Ellipse\ 3.png'),
+    url('../assets/Ellipse\ 3.png');
+  background-size: 15%, 15%;
+  position: relative;
+  background-position: right -8.5% top -15%, left -8% bottom -15%;
+  background-repeat: no-repeat no-repeat;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+  overflow-x: hidden;
+}
+
+.header-text {
+  font-size: 18px;
+}
+
+.container {
+  width: 500px;
+  height: 480px;
+  margin: 80px auto 0 auto;
+  background: #f8f8f8;
+  box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 10px 70px;
+}
+
+.bars {
+  padding-top: 40px;
+}
+
+.progress-bar-1 {
+  width: 90%;
+  border-radius: 10px;
+  background: #c4c4c4;
+  border: 1px solid #c4c4c4;
+}
+
+.progress-bar-2 {
+  width: 25%;
+  border-radius: 10px;
+  background: #2794eb;
+  border: 1px solid #2794eb;
+  padding: 0.5px 0;
+}
+
+.logo {
+  background: #2794eb;
+  width: 5%;
+  padding: 6px 15px 6px 28px;
+  margin: 20px auto 0 auto;
+  color: #ffffff;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.input[type='text'],
+.input[type='email'],
+.input[type='password'] {
+  outline: none;
+  width: 85%;
+  background: #efefef;
+  box-shadow: 2px 2px 2px 1px rgba(84, 79, 79, 0.37);
+  border-radius: 20px;
+  border: none;
+  padding: 11px 10px 10px 40px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #5068a9;
+}
+
+.error{
+  color: #e61010;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  padding: 5px 5px 5px 16px;
+  color: #5068a9;
+}
+
+@media screen and (max-width: 923px) {
+  body {
+    background-position: right -3.5% top -9%, left -3% bottom -9%;
+  }
+}
+
+@media screen and (max-width: 723px) {
+  .container {
+    width: 300px;
+  }
+  .logo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body {
+    background-position: right -3.5% top -5%, left -3% bottom -5%;
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .container {
+    width: 200px;
+    padding: 10px 80px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  body {
+    background-position: right -3.5% top -3%, left -3% bottom -3%;
+  }
+}
